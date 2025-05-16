@@ -1,0 +1,3 @@
+com\example\servlet\ListeCoursServlet.class
+com\example\dao\CoursDAO.class
+com\example\model\Cours.class
