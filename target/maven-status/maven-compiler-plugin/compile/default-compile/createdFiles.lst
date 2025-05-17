@@ -1,0 +1,3 @@
+com\example\model\Evaluation.class
+com\example\dao\EvaluationDAO.class
+com\example\servlet\ListeEvaluationsServlet.class
