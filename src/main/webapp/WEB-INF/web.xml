@@ -1,10 +1,21 @@
 <web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0"> 
+    <!-- Servlet pour la liste des étudiants -->
     <servlet> 
-     <servlet-name>liste</servlet-name> 
-     <servlet-class>com.example.servlet.ListeCoursServlet</servlet-class> 
+        <servlet-name>liste</servlet-name> 
+        <servlet-class>com.example.servlet.ListeEtudiantsServlet</servlet-class> 
     </servlet> 
     <servlet-mapping> 
-          <servlet-name>liste</servlet-name> 
-          <url-pattern>/cours</url-pattern> 
-    </servlet-mapping> 
-  </web-app>
+        <servlet-name>liste</servlet-name> 
+        <url-pattern>/etudiants</url-pattern> 
+    </servlet-mapping> 
+
+    <!-- Servlet pour la gestion des notes -->
+    <servlet>
+        <servlet-name>gestionNotes</servlet-name>
+        <servlet-class>com.example.servlet.GestionNotesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gestionNotes</servlet-name>
+        <url-pattern>/gestionnotes</url-pattern>
+    </servlet-mapping>
+</web-app>
