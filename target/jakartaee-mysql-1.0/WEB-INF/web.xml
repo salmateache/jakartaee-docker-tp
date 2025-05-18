@@ -1,0 +1,10 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>liste</servlet-name>
+        <servlet-class>com.example.servlet.ListeRelevesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>liste</servlet-name>
+        <url-pattern>/releves</url-pattern>
+    </servlet-mapping>
+</web-app>
