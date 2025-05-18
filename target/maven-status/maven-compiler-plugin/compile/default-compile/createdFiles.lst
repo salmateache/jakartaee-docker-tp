@@ -1,5 +1,8 @@
-com\example\servlet\ModifierEtudiantServlet.class
+com\example\model\Notes.class
 com\example\servlet\ListeEtudiantsServlet.class
-com\example\model\Etudiant.class
 com\example\servlet\SupprimerEtudiantServlet.class
 com\example\dao\EtudiantDAO.class
+com\example\servlet\ModifierEtudiantServlet.class
+com\example\dao\NotesDAO.class
+com\example\model\Etudiant.class
+com\example\servlet\ListeNotesServlet.class
